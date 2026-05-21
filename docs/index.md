@@ -26,13 +26,25 @@ features:
     title: DeepAgent
     details: 快速入门、核心能力、协议、CLI 工具等 29 篇文档
     link: /deepagent/
-  - icon: 📖
-    title: 逐段翻译
-    details: 完整保留原文内容，逐段中文翻译，不遗漏任何描述
-  - icon: 📋
-    title: 结构总结
-    details: 表格、架构图、核心概念提炼，快速掌握要点
-  - icon: 💻
-    title: 代码 Demo
-    details: Python / TypeScript / Bash 实战示例，即学即用
 ---
+
+<div style="max-width: 720px; margin: 40px auto 0; text-align: center;">
+  <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 24px;">每篇文档包含三个部分</h2>
+  <div style="display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 200px; padding: 20px; border-radius: 12px; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider);">
+      <div style="font-size: 32px; margin-bottom: 8px;">📖</div>
+      <div style="font-weight: 600; margin-bottom: 8px;">逐段翻译</div>
+      <div style="font-size: 14px; color: var(--vp-c-text-2);">完整保留原文，逐段中文翻译</div>
+    </div>
+    <div style="flex: 1; min-width: 200px; padding: 20px; border-radius: 12px; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider);">
+      <div style="font-size: 32px; margin-bottom: 8px;">📋</div>
+      <div style="font-weight: 600; margin-bottom: 8px;">结构总结</div>
+      <div style="font-size: 14px; color: var(--vp-c-text-2);">表格、架构图、核心要点提炼</div>
+    </div>
+    <div style="flex: 1; min-width: 200px; padding: 20px; border-radius: 12px; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider);">
+      <div style="font-size: 32px; margin-bottom: 8px;">💻</div>
+      <div style="font-weight: 600; margin-bottom: 8px;">代码 Demo</div>
+      <div style="font-size: 14px; color: var(--vp-c-text-2);">Python / TypeScript / Bash 实战示例</div>
+    </div>
+  </div>
+</div>
