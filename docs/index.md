@@ -4,7 +4,7 @@ layout: home
 hero:
   name: LangChain 技术文档
   text: 官方文档中文走读
-  tagline: 系统学习 LangChain / LangGraph / DeepAgent · 共 73 篇文档
+  tagline: 系统学习 LangChain / LangGraph / DeepAgent · 共 76 篇文档
   actions:
     - theme: brand
       text: 开始阅读
@@ -16,7 +16,7 @@ hero:
 features:
   - icon: 🔗
     title: LangChain
-    details: 核心组件、Middleware、高级用法、Multi-agent 等 22 篇文档
+    details: 核心组件、Middleware、高级用法、Multi-agent 等 25 篇文档
     link: /langchain/
   - icon: 📊
     title: LangGraph
@@ -46,5 +46,13 @@ features:
       <div style="font-weight: 600; margin-bottom: 8px;">代码 Demo</div>
       <div style="font-size: 14px; color: var(--vp-c-text-2);">Python / TypeScript / Bash 实战示例</div>
     </div>
+  </div>
+</div>
+
+<div style="max-width: 600px; margin: 80px auto 40px; text-align: center; padding: 24px; border-radius: 12px; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider);">
+  <div style="font-size: 14px; color: var(--vp-c-text-2); line-height: 1.8;">
+    如果这份文档对你的学习有所帮助，欢迎去
+    <a href="https://github.com/shuaibilx/langchain-docs" target="_blank" style="color: var(--vp-c-brand-1); text-decoration: none; font-weight: 500;">GitHub</a>
+    给个 ⭐ 鼓励一下，你的支持是我持续更新的动力！
   </div>
 </div>
