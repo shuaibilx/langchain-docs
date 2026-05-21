@@ -4,7 +4,7 @@
 
 **在线阅读：** [https://shuaibilx.github.io/langchain-docs](https://shuaibilx.github.io/langchain-docs)
 
-**By the way：**新注册的用户可以填写我的邀请码：XL9VPC，可以得到10米余额。
+**By the way：** 新注册的用户可以填写我的邀请码：XL9VPC，可以得到10米余额。
 
 ---
 
