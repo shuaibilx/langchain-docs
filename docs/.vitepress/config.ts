@@ -46,6 +46,7 @@ function generateSidebar(basePath: string) {
 }
 
 export default withMermaid(defineConfig({
+  base: '/langchain-docs/',
   title: 'LangChain 技术文档',
   description: 'LangChain / LangGraph / DeepAgent 官方文档中文走读',
 
@@ -87,6 +88,12 @@ export default withMermaid(defineConfig({
   },
 
   cleanUrls: true,
-  lastUpdated: true
+  lastUpdated: true,
+
+  markdown: {
+    // Disable dead link checking (original docs have external links)
+    anchor: { permalink: false }
+  },
+
+  ignoreDeadLinks: true
 }))
-# Updated Thu May 21 18:10:49     2026
