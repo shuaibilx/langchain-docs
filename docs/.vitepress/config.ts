@@ -87,7 +87,8 @@ export default withMermaid(defineConfig({
       { text: '首页', link: '/' },
       { text: 'LangChain', link: '/langchain/' },
       { text: 'LangGraph', link: '/langgraph/' },
-      { text: 'DeepAgent', link: '/deepagent/' }
+      { text: 'DeepAgent', link: '/deepagent/' },
+      { text: '官方文档 ↗', link: 'https://docs.langchain.com/oss/python/langchain/overview' }
     ],
 
     sidebar: {
