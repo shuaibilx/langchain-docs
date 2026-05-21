@@ -1,0 +1,106 @@
+/* === Custom Theme === */
+
+/* Sidebar group items */
+.VPSidebar .group .title {
+  font-weight: 600;
+}
+
+/* Collapsed doc items - subtle indent */
+.VPSidebar .VPSidebarItem.level-3 .text {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+/* Code blocks */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+/* Tables */
+.vp-doc table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.vp-doc th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+  text-align: left;
+}
+
+.vp-doc td, .vp-doc th {
+  padding: 10px 14px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc tr:nth-child(even) {
+  background: var(--vp-c-bg-soft-up);
+}
+
+/* Blockquotes - tip/info style */
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin: 16px 0;
+}
+
+/* Hero section on homepage */
+.VPHero .name {
+  font-size: 48px !important;
+}
+
+.VPHero .text {
+  font-size: 20px !important;
+}
+
+/* Feature cards */
+.VPFeature {
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.VPFeature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar scroll */
+.VPSidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.VPSidebar::-webkit-scrollbar-thumb {
+  background: var(--vp-c-divider);
+  border-radius: 4px;
+}
+
+/* Mermaid diagrams */
+.mermaid {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Headings anchor */
+.vp-doc h1, .vp-doc h2, .vp-doc h3 {
+  scroll-margin-top: 80px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .VPHero .name {
+    font-size: 32px !important;
+  }
+
+  .vp-doc table {
+    font-size: 12px;
+  }
+
+  .vp-doc td, .vp-doc th {
+    padding: 6px 8px;
+  }
+}
