@@ -1,5 +1,8 @@
 node_modules/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
+/.vitepress/
+/.agents/
+skills-lock.json
 .DS_Store
 *.log

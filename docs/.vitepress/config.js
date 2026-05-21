@@ -43,13 +43,20 @@ function generateSidebar(basePath) {
   })
 }
 
+const isVercel = !!process.env.VERCEL
+
 export default defineConfig({
-  base: '/langchain-docs/',
+  base: isVercel ? '/' : '/langchain-docs/',
   title: 'LangChain 技术文档',
   description: 'LangChain / LangGraph / DeepAgent 官方文档中文走读',
   cleanUrls: false,
   lastUpdated: true,
   ignoreDeadLinks: true,
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' }],
+  ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
