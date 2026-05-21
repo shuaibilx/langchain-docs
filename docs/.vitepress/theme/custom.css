@@ -327,15 +327,39 @@ html::before {
 .vp-doc div[class*='language-'] {
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
-  background: #1E1E1E;
+  background: var(--bg-soft) !important;
   box-shadow: var(--shadow-sm);
   margin: 1.2em 0;
 }
 
+.vp-doc div[class*='language-'] pre,
 .vp-doc div[class*='language-'] code {
   font-family: var(--font-mono);
   font-size: 13px;
   line-height: 1.65;
+  background: transparent !important;
+}
+
+/* Line numbers */
+.vp-doc div[class*='language-'] .line-numbers .line-num,
+.vp-doc div[class*='language-'] .line-num {
+  color: var(--text-3);
+}
+
+/* Copy button */
+.vp-doc div[class*='language-'] > button {
+  color: var(--text-3);
+  transition: color 0.2s ease;
+}
+
+.vp-doc div[class*='language-'] > button:hover {
+  color: var(--accent);
+}
+
+/* Language label */
+.vp-doc div[class*='language-'] > .lang {
+  color: var(--text-3);
+  font-size: 11px;
 }
 
 /* Inline code */
