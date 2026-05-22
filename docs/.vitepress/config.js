@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const FILE_ORDER = ['翻译', '总结', 'Demo']
@@ -44,15 +45,17 @@ function generateSidebar(basePath) {
 }
 
 const isVercel = !!process.env.VERCEL
+const base = isVercel ? '/' : '/langchain-docs/'
 
-export default defineConfig({
-  base: isVercel ? '/' : '/langchain-docs/',
+export default withMermaid(defineConfig({
+  base,
   title: 'LangChain 技术文档',
   description: 'LangChain / LangGraph / DeepAgent 官方文档中文走读',
   cleanUrls: false,
   lastUpdated: true,
   ignoreDeadLinks: true,
   head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' }],
@@ -97,4 +100,4 @@ export default defineConfig({
     outline: { level: [2, 3], label: '页面导航' },
     docFooter: { prev: '上一篇', next: '下一篇' }
   }
-})
+}))
