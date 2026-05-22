@@ -66,6 +66,43 @@
   --vp-button-alt-border:    var(--radius-sm);
 }
 
+/* --- Dark Mode Tokens --- */
+.dark {
+  --bg:          #1A1A1A;
+  --bg-elevated: #242424;
+  --bg-soft:     #2A2A2A;
+  --bg-muted:    #333333;
+
+  --text-1: #E8E5E0;
+  --text-2: #B0ADA8;
+  --text-3: #7A7772;
+
+  --accent:       #2DD4BF;
+  --accent-light: #1A3A38;
+  --accent-hover: #5EEAD4;
+
+  --border:     #3A3A3A;
+  --border-lt:  #2E2E2E;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.4);
+
+  --vp-c-bg:               var(--bg);
+  --vp-c-bg-alt:           var(--bg-soft);
+  --vp-c-bg-elv:           var(--bg-elevated);
+  --vp-c-bg-soft:          var(--bg-soft);
+  --vp-c-divider:          var(--border);
+  --vp-c-text-1:           var(--text-1);
+  --vp-c-text-2:           var(--text-2);
+  --vp-c-text-3:           var(--text-3);
+  --vp-c-brand-1:          var(--accent);
+  --vp-c-brand-2:          var(--accent-hover);
+  --vp-c-brand-3:          var(--accent-hover);
+  --vp-c-brand-soft:       var(--accent-light);
+  --vp-sidebar-bg:         var(--bg);
+}
+
 /* --- Global Base --- */
 html {
   font-family: var(--font-body);
@@ -194,6 +231,11 @@ html::before {
   backdrop-filter: blur(12px) saturate(1.2);
   -webkit-backdrop-filter: blur(12px) saturate(1.2);
   border-bottom: 1px solid var(--border-lt);
+}
+
+.dark .VPNavBar {
+  background: rgba(26, 26, 26, 0.85) !important;
+  border-bottom: 1px solid var(--border);
 }
 
 .VPNavBar .title {

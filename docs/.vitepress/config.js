@@ -63,7 +63,7 @@ export default withMermaid(defineConfig({
   markdown: {
     theme: {
       light: 'github-light',
-      dark: 'github-light',
+      dark: 'github-dark',
     },
   },
   themeConfig: {
