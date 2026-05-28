@@ -4,9 +4,10 @@
 
 **从文档到实践 — 我的 LangChain / LangGraph / DeepAgent 学习笔记与实战 Demo**
 
-**[>>> 点击访问在线文档 <<<](https://shuaibilx.github.io/langchain-docs)**
+[在线阅读](https://shuaibilx.github.io/langchain-docs) · [LangChain 官方文档](https://docs.langchain.com/) · [LangGraph 官方文档](https://docs.langchain.com/langgraph) · [DeepAgent 官方文档](https://docs.langchain.com/deepagents)
 
-[LangChain 官方文档](https://docs.langchain.com/) · [LangGraph 官方文档](https://docs.langchain.com/langgraph) · [DeepAgent 官方文档](https://docs.langchain.com/deepagents)
+![VitePress](https://img.shields.io/badge/VitePress-Site-639?style=flat-square&logo=vitepress)
+![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-639?style=flat-square&logo=github)
 
 </div>
 

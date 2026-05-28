@@ -26,6 +26,10 @@ features:
     title: DeepAgent
     details: 快速入门 · 核心能力 · 协议 · CLI 工具 — 29 篇
     link: /deepagent/
+  - icon: 📚
+    title: Learn
+    details: 实战走读 · 翻译 + 总结 + Demo — 21 篇
+    link: /learn/
 ---
 
 <div style="max-width: 640px; margin: 64px auto 0; padding: 0 24px;">
