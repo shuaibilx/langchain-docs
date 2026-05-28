@@ -72,12 +72,14 @@ export default withMermaid(defineConfig({
       { text: 'LangChain', link: '/langchain/' },
       { text: 'LangGraph', link: '/langgraph/' },
       { text: 'DeepAgent', link: '/deepagent/' },
+      { text: '学习走读', link: '/learn/' },
       { text: '官方文档 ↗', link: 'https://docs.langchain.com/oss/python/langchain/overview' }
     ],
     sidebar: {
       '/langchain/': generateSidebar('langchain'),
       '/langgraph/': generateSidebar('langgraph'),
-      '/deepagent/': generateSidebar('deepagent')
+      '/deepagent/': generateSidebar('deepagent'),
+      '/learn/': generateSidebar('learn')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/shuaibilx/langchain-docs' }
