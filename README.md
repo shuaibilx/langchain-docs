@@ -4,8 +4,8 @@
 
 **从文档到实践 — 我的 LangChain / LangGraph / DeepAgent 学习笔记与实战 Demo**
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-shuaibilx.github.io/langchain-docs-0D7377?style=flat-square&logo=github)](https://shuaibilx.github.io/langchain-docs)
-[![Vercel](https://img.shields.io/badge/Vercel-langchain--docs--iota.vercel.app-0D7377?style=flat-square&logo=vercel)](https://langchain-docs-iota.vercel.app/)
+[![GitHub Pages](https://img.shields.io/badge/Site-GitHub_Pages-0D7377?style=flat-square&logo=github&logoColor=white)](https://shuaibilx.github.io/langchain-docs)
+[![Vercel](https://img.shields.io/badge/Site-Vercel-0D7377?style=flat-square&logo=vercel&logoColor=white)](https://langchain-docs-iota.vercel.app/)
 
 [LangChain 官方文档](https://docs.langchain.com/) · [LangGraph 官方文档](https://docs.langchain.com/langgraph) · [DeepAgent 官方文档](https://docs.langchain.com/deepagents)
 
@@ -21,7 +21,7 @@
 - **实战 Demo** — Python / TypeScript / Bash 代码示例，即学即用，不是伪代码
 - **中文走读** — 逐段翻译作为辅助，降低英文阅读门槛
 
-> 76 篇文档，每篇都包含「总结 + Demo + 翻译」三部分。
+> 99 篇文档，每篇都包含「总结 + Demo + 翻译」三部分。
 
 ## 核心亮点
 
@@ -62,6 +62,19 @@ LLM 应用开发核心框架 — 从基础组件到高级用法。
 ### DeepAgent（29 篇）
 
 终端编码 Agent — AI 辅助编程工具。
+
+### Learn（21 篇）
+
+官方文档 Learn 模块实战走读 — 翻译 + 总结 + 可运行 Demo。
+
+| 分类 | 核心内容 |
+|:--|:--|
+| **Overview** | Learn 模块总览 |
+| **DeepAgent** | Data Analysis、Deep Research、Content Builder、From Scratch |
+| **LangChain** | Semantic Search、RAG Agent、SQL Agent、Voice Agent |
+| **MultiAgent** | Subagents、Handoffs、Router、Skills |
+| **LangGraph** | Agentic RAG、Custom SQL Agent |
+| **Conceptual** | Frameworks、Providers、Components、Memory、Context |
 
 | 分类 | 核心内容 |
 |:--|:--|
